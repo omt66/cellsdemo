@@ -1,0 +1,18 @@
+.cell {
+  position: absolute;
+  margin: 1px;
+  padding: 1px;
+  /* width: 50px;
+  height: 50px; */
+  background-color: lightyellow;
+  border: 1px solid darkslateblue;
+  float: left;
+  user-select: none;
+  cursor: pointer;
+}
+
+.cell-empty {
+  background-color: black;
+  border: 0px;
+  cursor: default;
+}
